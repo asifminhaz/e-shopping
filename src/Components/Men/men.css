@@ -1,0 +1,25 @@
+@media screen and (min-width:250px) and (max-width:480px) {
+    
+    .mencard{
+        grid-template-columns: repeat(1, 1fr);
+       
+     }
+}
+
+ /* Tablet View */
+ @media screen and (min-width:481px) and (max-width:768px) {
+ 
+  
+     .mencard{
+        grid-template-columns: repeat(1, 1fr);
+     
+     }
+}
+ /* Laptop View */
+ @media screen and (min-width:769px) and (max-width: 1280px) {
+  
+    .mencard{
+       grid-template-columns: repeat(1, 1fr);
+    
+    }
+}

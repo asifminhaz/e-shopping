@@ -1,0 +1,26 @@
+@media screen and (min-width:250px) and (max-width:480px) {
+    
+.servicecard{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 50px;
+
+}
+
+}
+
+ /* Tablet View */
+ @media screen and (min-width:481px) and (max-width:768px) {
+ 
+    .servicecard{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 250px;
+
+    }
+    .servicetitle{
+        margin-left: 300px;
+    }
+}
+ /* Laptop View */
+ @media screen and (min-width:769px) and (max-width: 1280px) {
+
+}
