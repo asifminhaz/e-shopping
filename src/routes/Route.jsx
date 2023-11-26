@@ -36,7 +36,7 @@ import History from "../Pages/Dashboard/History/History";
         // },
         {
           path: "/men",
-          element:<PrivateRoute><Men></Men></PrivateRoute>
+          element:<Men></Men>
         },
         {
           path: "/women",
@@ -60,7 +60,7 @@ import History from "../Pages/Dashboard/History/History";
     },
     {
       path:'dashboard',
-      element: <Dashboard></Dashboard>,
+      element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
       children: [
         {
           path: 'mycart',

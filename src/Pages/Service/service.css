@@ -2,7 +2,7 @@
     
 .servicecard{
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 50px;
+   
 
 }
 
@@ -12,15 +12,19 @@
  @media screen and (min-width:481px) and (max-width:768px) {
  
     .servicecard{
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 250px;
+        grid-template-columns: repeat(2, 1fr);
+    
 
     }
-    .servicetitle{
-        margin-left: 300px;
-    }
+
 }
  /* Laptop View */
  @media screen and (min-width:769px) and (max-width: 1280px) {
+    
+    .servicecard{
+        grid-template-columns: repeat(2, 1fr);
+    
+
+    }
 
 }

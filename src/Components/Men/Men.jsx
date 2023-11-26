@@ -16,7 +16,7 @@ const Men = () => {
     },[])
 
     return (
-        <div className="grid grid-cols-3 mencard m-20">
+        <div className="grid grid-cols-3 mencard ">
            
             {
                     mens.map(men => <MenCard

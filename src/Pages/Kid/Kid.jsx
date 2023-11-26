@@ -13,7 +13,8 @@ const Kid = () => {
     },[])
 
     return (
-        <div className="grid grid-cols-3 kidcard m-20">
+        <div className="grid grid-cols-3 kidcard ">
+         
            
             {
                     kids.map(kid => <KidsCard

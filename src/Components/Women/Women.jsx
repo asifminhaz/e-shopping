@@ -12,7 +12,7 @@ const Women = () => {
     },[])
     return (
         <div>
-           <div className="grid grid-cols-3 womencard m-20">
+           <div className="grid grid-cols-3 womencard ">
            
            {
                    womens.map(women => <Womencard

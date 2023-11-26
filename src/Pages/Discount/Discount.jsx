@@ -10,11 +10,11 @@ const Discount = () => {
             </div>
             <div className="text-center ">
       <h1 className="text-3xl font-bold">50% less in all items</h1>
-      <p className=""> Hurry, this offer wont last long.</p>
-      <p className=""> Snag your favorite items at half the price while supplies last. </p>
-      <p className="">  dont miss out on this fantastic opportunity to shop smart and save big.</p>
-      <p className="">   its time to upgrade your lifestyle without breaking the bank!</p>
-      <button className="btn btn-neutral">Get Started</button>
+      <p className="pt-5"> Hurry, this offer wont last long.Snag your favorite items at half the price while supplies last.dont miss out on this fantastic opportunity to shop smart and save big. its time to upgrade your lifestyle without breaking the bank!</p>
+      <p className="">  </p>
+      <p className="">  </p>
+      <p className="">  </p>
+      <button className="btn btn-neutral mt-5">Get Started</button>
     </div>
            {/* <div className="hero min-h-screen bg-base-100 ">
   <div className="hero-content flex-col lg:flex-row">

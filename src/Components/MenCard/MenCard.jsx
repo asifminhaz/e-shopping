@@ -93,7 +93,8 @@ const MenCard = ({men}) => {
    
     return (
         <div className="">
-            <div className="card w-96 bg-base-100 shadow-xl m-8 ">
+    
+            <div className="card w-96  mt-32 ">
   <figure className="px-10 pt-10">
     <img  src={image} alt="Shoes" className="rounded-xl w-76 h-64" />
   </figure>
