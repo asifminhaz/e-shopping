@@ -39,9 +39,9 @@ const LogIn = () => {
 
     return (
         <div>
-            <h1 className="text-3xl text-center font-bold">Please Log In</h1>
-            <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+            <h1 className="text-3xl text-center font-bold  mt-12">Please Log In</h1>
+            <div className="hero min-h-screen ">
+  <div className="hero-content flex-col lg:flex-row-reverse mb-72">
   
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form onSubmit={handleLogin} className="card-body">
@@ -70,7 +70,7 @@ const LogIn = () => {
           <input className="btn btn-primary" type="submit" value="Login"></input>
         </div>
       </form>
-      <p><small>New here? <Link to="/register">Create an account</Link></small></p>
+      <p>New here? <button className="btn btn-link"><Link to="/register">Create an account</Link></button></p>
     </div>
   </div>
 </div>
